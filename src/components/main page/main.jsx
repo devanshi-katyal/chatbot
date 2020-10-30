@@ -20,6 +20,10 @@ function main() {
                <div className="firefly"></div>
                <div className="firefly"></div>
                <div className="firefly"></div>
+               <div className="firefly"></div>
+               <div className="firefly"></div>
+               <div className="firefly"></div>
+               <div className="firefly"></div>
            </div>
            <div className="mainintro intro-text">
                Waiting for this dark night to get over?

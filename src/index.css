@@ -3,8 +3,8 @@
     position: fixed;
     left: 50%;
     top: 50%;
-    width: 0.7vw;
-    height: 0.7vw;
+    width: 0.8vw;
+    height: 0.8vw;
     margin: -0.2vw 0 0 9.8vw;
     animation: ease 200s alternate infinite;
     pointer-events: none;
@@ -20,7 +20,7 @@
 }
 
 .firefly::before {
-    background:lightseagreen;
+    background: #ab9d80;
     opacity: 0.4;
     animation: drift ease alternate infinite;
 }
@@ -1726,11 +1726,11 @@
 @keyframes flash {
     0%, 30%, 100% {
         opacity: 0;
-        box-shadow: 0 0 0vw 0vw yellow;
+        box-shadow: 0 0 0vw 0vw #fdb805;
     }
 
     5% {
         opacity: 1;
-        box-shadow: 0 0 2vw 0.4vw yellow;
+        box-shadow: 0 0 2vw 0.4vw navajowhite;
     }
 }
