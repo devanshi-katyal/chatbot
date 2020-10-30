@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function main() {
     return (
         <div className="mainintro quote">
-<p> pretend i wrote something beautifyl here for you to actually reflect upoon</p>
+<q className="quote-text"> The most powerful weapon against stress is our ability to choose one thought over another. Train your mind to see good in this day</q>
         </div>
     )
 }

@@ -21,8 +21,10 @@ function main() {
                <div className="firefly"></div>
                <div className="firefly"></div>
            </div>
-           <div className="mainintro">
-               get ready to go on a journey
+           <div className="mainintro intro-text">
+               Waiting for this dark night to get over?
+
+               <h4>Cant have a control over whats happening around you anymore?</h4>
            </div>
        </div>
     );

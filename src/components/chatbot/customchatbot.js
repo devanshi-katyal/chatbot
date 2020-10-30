@@ -77,6 +77,16 @@ function chatBot(props){
                     value: "Happy",
                     label: "Happy",
                     trigger: "happy"
+                },
+                {
+                    value: "Angry",
+                    label: "Angry",
+                    trigger: "Angry"
+                },
+                {
+                    value: "Disappointed",
+                    label: "Disappointed",
+                    trigger: "Disappointed"
                 }
             ]
         },
@@ -103,9 +113,64 @@ function chatBot(props){
     },
         {
             id: "regular sadness",
-            message: "Happnes with me too, it will go ",
+            message: "Happens with me too, everything goes, this will go too.We must remember who we are and face who we are. It might always feel like it is always night and we will always be alone but remember it is the darkest before the first night of dawn.",
             trigger: "done"
         },
+        {
+            id: "Angry",
+            options: [
+                {
+                    value: true,
+                    label: "I am very angry",
+                    trigger: "very angry"
+                },
+                {
+                    value: false,
+                    label: "Frustration",
+                    trigger: "frustration"
+                }
+            ]
+        },
+        {
+            id: "Disappointed",
+            message: "The standards you make for yourself are more strict.Now let’s forgive ourselves. Our lives are long, always trust yourself when in a maze and remember When winter passes, spring always comes",
+            trigger: "done"
+        },
+        {
+            id: "very angry",
+            message: "Lets take a deep breathe, try to go for a walk. you might feel better :)",
+            trigger: "done"
+        },
+        {
+            id: "frustration",
+            message: "We all get frustrated sometimes, when things dont go our way. We must remember who we are and face who we are. It might always feel like it is always night and we will always be alone but remember it is the darkest before the first night of dawn.",
+            trigger: "done"
+        },
+        { id: "Angry",
+        options: [
+        {
+            value: true,
+            label: "I am very angry",
+            trigger: "very angry"
+        },
+        {
+            value: false,
+            label: "Frustration",
+            trigger: "frustration"
+        }
+    ]
+},
+
+{
+    id: "very angry",
+        message: "Lets take a deep breathe, try to go for a walk. you might feel better :)",
+    trigger: "done"
+},
+{
+    id: "frustration",
+        message: "We all get frustrated sometimes, when things dont go our way. We must remember who we are and face who we are. It might always feel like it is always night and we will always be alone but remember it is the darkest before the first night of dawn.",
+    trigger: "done"
+},
         {
             id: "happy",
             options: [
@@ -121,6 +186,7 @@ function chatBot(props){
                 }
             ]
         },
+
 
         {
             id: "very happy",

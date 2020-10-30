@@ -3,8 +3,8 @@
     position: fixed;
     left: 50%;
     top: 50%;
-    width: 0.9vw;
-    height: 0.9vw;
+    width: 0.7vw;
+    height: 0.7vw;
     margin: -0.2vw 0 0 9.8vw;
     animation: ease 200s alternate infinite;
     pointer-events: none;
@@ -20,7 +20,7 @@
 }
 
 .firefly::before {
-    background: orangered;
+    background:lightseagreen;
     opacity: 0.4;
     animation: drift ease alternate infinite;
 }
