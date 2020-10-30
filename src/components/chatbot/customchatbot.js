@@ -133,7 +133,7 @@ function chatBot(props){
         },
         {
             id: "Disappointed",
-            message: "The standards you make for yourself are more strict.Now let’s forgive ourselves. Our lives are long, always trust yourself when in a maze and remember When winter passes, spring always comes",
+            message: "Maybe you are disappointed because The standards you make for yourself are more strict.its time to forgive yourself. Your live is long, always trust yourself when in a maze and remember When winter passes, spring always comes",
             trigger: "done"
         },
         {
