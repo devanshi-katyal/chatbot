@@ -24,7 +24,7 @@ function main() {
            <div className="mainintro intro-text">
                Waiting for this dark night to get over?
 
-               <h4>Cant have a control over whats happening around you anymore?</h4>
+               <h4>Feel like you have no control over whats happening around you anymore?</h4>
            </div>
        </div>
     );
